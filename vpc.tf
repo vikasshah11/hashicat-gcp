@@ -6,10 +6,6 @@ module "vpc" {
    project_id   = "var.project"
    network_name = "summit-network"
 
-credentials "app.terraform.io" {
-    # valid user API token:
-    token = "xxxxxx.atlasv1.zzzzzzzzzzzzz"
-  }
 
 subnets = [
   {
