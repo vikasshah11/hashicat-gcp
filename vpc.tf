@@ -3,7 +3,7 @@ module "vpc" {
   version = "3.4.0"
   # insert required variables here
 
-   project_id   = "var.project"
+   project_id   = "summit.project"
    network_name = "summit-network"
 
 
